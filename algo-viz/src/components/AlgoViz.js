@@ -5,7 +5,7 @@ const AlgoViz = () => {
 
     return (
         <>
-            <h1>Welcome to AlgoViz</h1>
+            <h1>Welcome to AlgoViz latest</h1>
         </>
     );
 };
