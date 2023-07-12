@@ -13,10 +13,10 @@ const Layout = () => {
                     <Link to="/aStarPathFinder">Path Finding Visualiser</Link>
                 </button>
                 <button className='Link btn btn-warning border m-3'>
-                    <Link to="/">Data Structures</Link>
+                    <Link to="/dataStructures">Data Structures</Link>
                 </button>
                 <button className='Link btn btn-warning border m-3'>
-                    <Link to="/">Sorting Algo</Link>
+                    <Link to="/sortingAlgo">Sorting Algo</Link>
                 </button>
             </div>
 

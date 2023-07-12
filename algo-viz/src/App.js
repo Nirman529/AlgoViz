@@ -7,6 +7,8 @@ import PathFinder from './components/PathFinder/PathFinder';
 import Home from './components/Home/Home';
 import Layout from './components/Layout/Layout';
 import PageNotFound from './components/NoPage/PageNotFound';
+import DataStructures from './components/DataStructures/DataStructures';
+import SortingAlgo from './components/SortingAlgo/SortingAlgo';
 
 function App() {
     return (
@@ -17,7 +19,9 @@ function App() {
                     <Routes>
                         <Route path='/' element={<Layout />}>
                             <Route index element={<Home />} />
-                            <Route path='aStarPathFinder' element={<Grid />} />
+                            <Route path='aStarPathFinder' element={<PathFinder />} />
+                            <Route path='datastructures' element={<DataStructures />} />
+                            <Route path='sortingalgo' element={<SortingAlgo />} />
                             <Route path='*' element={<PageNotFound />} />
 
                         </Route>
